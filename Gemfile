@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
 gem 'bootstrap-sass',       '3.2.0.0'
-gem 'sqlite3'
+gem 'sqlite3', group: [:development, :test]
 gem 'pg', group: :production
 gem 'rails_12factor', group: :production
 gem 'sass-rails', '~> 5.0'
