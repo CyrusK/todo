@@ -14,8 +14,9 @@
  *= require_self
  */
 
+
 $white_opaque: rgba(250, 250, 250, .3);
- $dark: #2c3e50;
+ $dark: #1F7972;
 
 * {
     box-sizing: border-box;
@@ -28,10 +29,9 @@ body {
     height: 100%;
 
 
-background: #c21500; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #c21500 , #ffc500); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #c21500 , #ffc500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
+background: #DE6262; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #DE6262 , #FFB88C); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #DE6262 , #FFB88C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         
         
   font-family: 'Lato', sans-serif;
@@ -51,19 +51,11 @@ background: linear-gradient(to left, #c21500 , #ffc500); /* W3C, IE 10+/ Edge, F
     text-align: center;
     font-size: 0.6em;
     color: $dark;
+    font-color: #ecf0f1;
     font-weight: 100;
 }
 
-.container {
-    width: 50%;
-    max-width: 750px;
-    background: $white_opaque;
-    margin: 3em auto 0 auto;
-    border-radius: 7px;
-    -webkit-box-shadow: 0 0 4px 3px rgba(0,0,0,.3);
-    box-shadow: 0 0 4px 4px rgba(0,0,0,.03);
-    padding: 1em 0;
-}
+
 
 .todo_list_title {
     text-align: center;
@@ -85,9 +77,9 @@ background: linear-gradient(to left, #c21500 , #ffc500); /* W3C, IE 10+/ Edge, F
 .todo_list_sub_title {
     margin: 0 0 3em 0;
     text-align: center;
-    font-size: 0.9em;
-    color: $dark;
-    font-weight: 150;
+    font-size: 1.5em;
+    color: #ecf0f1;
+    font-weight: 100;
 }
 
 .index_row {
@@ -116,8 +108,8 @@ background: linear-gradient(to left, #c21500 , #ffc500); /* W3C, IE 10+/ Edge, F
             p {
                 margin: 0;
                 padding: 1em;
-                color: $dark;
-                font-weight: 100;
+                color: black;
+                font-weight: 5;
             }
         }
         .trash {
@@ -215,6 +207,4 @@ input[type="submit"] {
     }
 }
 ::-webkit-input-placeholder { color: $dark; }
-
-
         

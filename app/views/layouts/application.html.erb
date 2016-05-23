@@ -8,22 +8,17 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 </head>
 <body>
-    <header class="navbar navbar-fixed-top navbar-inverse">
-      <div class="container">
-        <%= link_to "I'm Down To AWESOMNESS! App :)", '#', id: "logo" %>
-        <nav>
-          <ul class="nav navbar-nav navbar-right">
-            <li><%= link_to "Home",   '#' %></li>
-            <li><%= link_to "Help",   '#' %></li>
-            <li><%= link_to "Log in", '#' %></li>
-          </ul>
-        </nav>
-      </div>
-  </header>
+   
 
 <div class = "container">
 <%= yield %>
 </div>
 
 </body>
+
+ <header class="navbar navbar-fixed-top navbar-inverse">
+      <div class="container">
+  <center><h4><%= link_to 'Daily Goals! :)', todo_lists_path, id: "logo" %></font></h4></center> 
+  </div> 
+  </header>
 </html>
